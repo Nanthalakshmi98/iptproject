@@ -12,6 +12,7 @@ public class BrowserLaunch {
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("https://www.facebook.com/login/");
+		System.out.println("Hello world");
 	}
 
 }
